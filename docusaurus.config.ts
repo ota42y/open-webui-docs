@@ -1,3 +1,5 @@
+import process from 'process';
+
 import { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
