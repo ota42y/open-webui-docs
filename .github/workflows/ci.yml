@@ -31,4 +31,7 @@ jobs:
         run: npm run stylelint
 
       - name: Test build
+        env:
+          BASE_URL: ${{ vars.BASE_URL }}
+          SITE_URL: ${{ vars.SITE_URL }}
         run: npm run build
